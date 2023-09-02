@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     def serverUrl = 'http://10.100.102.114:8082' // Artifactory IP
-                    def username = 'admin'
+                    def username = 'task'
                     def password = 'Aa123456'
                     def repository = "artifactory/generic-local/${env.VERSION}" // Repository name
                     
